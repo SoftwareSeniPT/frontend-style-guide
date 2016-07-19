@@ -107,7 +107,7 @@ a img {
 
 ## Markup Guidelines
 ### Containment
-When creating container for element, always remember to avoid these:
+When creating container for element, always remember these:
 
 1. **Never create a single container for all elements**
     
@@ -178,7 +178,10 @@ color: #2e7e83;
 As most of the projects on SoftwareSeni require to be pixel perfect, we encourage all front-end developer to use **px** as default unit size for almost everything like font-size, padding, margin. Do not use percent unit size on padding and margin unless you know what you are doing.
 
 ### CSS Reset
-All project starter themes on SoftwareSeni have already included CSS reset on the stylesheet. The CSS reset will make your styling consistent on every major browser and will help you avoid future errors.
+All project starter themes on SoftwareSeni have already included CSS reset on the stylesheet. The CSS reset will make your styling consistent on every major browser and will help you avoid future errors. If the CSS reset is not included when you start a new project, please use [Normalize.css](https://necolas.github.io/normalize.css/) as the CSS reset or copy paste minified snippet below to the top of your CSS file:
+```css
+button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+```
 
 ### Pre & Post Processor
 Avoid using any preprocessors or postprocessor. We have a very minimal amount of boilerplate code to start with in our stylesheet and it allows us to keep our CSS files very slim. 
