@@ -163,14 +163,14 @@ footer a {
 **Bad:**
 ```css
 footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    color: #8E8E8E;
+text-align: center;
+padding: 20px;
+font-size: 14px;
+color: #8E8E8E;
 }
 
 footer a {
-    color: #2e7e83;
+color: #2e7e83;
 }
 ```
 
