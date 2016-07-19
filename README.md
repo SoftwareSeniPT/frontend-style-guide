@@ -48,9 +48,9 @@ Every front-end developer on SoftwareSeni is equipped with Adobe Photoshop subsc
 
 ## Development Pre-Check
 Always make sure to check all of the list below before you start a project.
-- [ ] **CSS Reset**. See [CSS Reset](#css-reset)
-- [ ] **Auto-prefixing plugin**. See [Text Editor Plugin](#user-content-text-editor-plugin)
-- [ ] **Base Styles**. Make sure you always include the base style for font size, line height, font color, link color, and hover link color on your stylesheet.
+- [ ] **CSS reset is already included on the CSS file**. See [CSS Reset](#css-reset)
+- [ ] **Auto-prefixing plugin is already installed and activated**. See [Text Editor Plugin](#user-content-text-editor-plugin)
+- [ ] **Base styles is added**. Make sure you always include the base style for font size, line height, font color, link color, and hover link color on your stylesheet.
 
 ```css
 html, body {
@@ -90,7 +90,7 @@ a img {
     border: none;
 }
 ```
-- [ ] **CSS Border Box**. Border box is needed for making grid on responsive web. So always make sure you include this on your CSS
+- [ ] **CSS Border Box is added to the CSS**. Border box is needed for making grid on responsive web. So always make sure you include this on your CSS
 ```css
 * {
     box-sizing: border-box;
@@ -102,8 +102,8 @@ a img {
     box-sizing: border-box;
 }
 ```
-- [ ] **Viewport Meta Tag**. See [Meta Viewport](#user-content-meta-viewport) section
-- [ ] **Mobile Check**. See [Mobile Check](#user-content-mobile-check) section
+- [ ] **Viewport Meta Tag is added to HTML**. See [Meta Viewport](#user-content-meta-viewport) section
+- [ ] **Function to check mobile device is added**. See [Mobile Check](#user-content-mobile-check) section
 
 ## Markup Guidelines
 ### Containment
